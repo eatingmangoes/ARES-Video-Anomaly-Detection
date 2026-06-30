@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs and Checkpoints
+logs/
+llama2-13b-anomaly-adapter/
+sft_training_output_13b/
+*.jsonl
+*.log
+*.txt
+
+# Videos and Images
+*.mp4
+*.avi
+*.png
+*.jpg
+paper_plots/
+UCF-101/
+
+# Virtual Environments
+venv/
+env/
+.env
+
+# The cloned repo
+DIFFender/
